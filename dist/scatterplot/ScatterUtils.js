@@ -1,17 +1,17 @@
-export const convertSeries = resultsFromApi => {
+export const convertSeries = (resultsFromApi, threshold, dotsize) => {
   const refinedSeries = [];
   resultsFromApi.map((value, index) => {
-    refinedSeries.push({
-      name: value.studentname,
-      symbolSize: 10,
-      data: convertAxisIntoData(value.axis),
+    return refinedSeries.push({
+      name: value.itemname,
+      symbolSize: dotsize || 10,
+      data: convertAxisIntoData(value.axis, threshold),
       type: "scatter"
     });
   });
   return refinedSeries;
 };
-export const convertAxisIntoData = axis => {
-  if (axis[0] < 70) {
+export const convertAxisIntoData = (axis, thres) => {
+  if (axis[0] < thres) {
     return [null, axis];
   } else return [axis, null];
 };

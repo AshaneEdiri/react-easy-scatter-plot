@@ -1,6 +1,6 @@
 {
   "name": "react-easy-scatter-plot",
-  "version": "0.0.3",
+  "version": "1.0.1",
   "private": false,
   "babel": {
     "presets": [

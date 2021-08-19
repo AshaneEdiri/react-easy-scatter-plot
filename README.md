@@ -121,9 +121,9 @@ function Scattermain() {
 export default Scattermain;
 ``` 
 
-The output of v1.0.1 is as follows 
+The output of v1.0.2 is as follows 
 
-![v1.0.1 output](./public/v1_output.PNG)
+![v1.0.2 output](./public/v1_output.PNG)
 
 
 

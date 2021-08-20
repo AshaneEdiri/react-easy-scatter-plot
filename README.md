@@ -1,3 +1,8 @@
+# Easy Scatter Plot
+Dots are used to indicate values for two separate numeric variables in a scatter plot (also known as a scatter chart or scatter graph). The values for each data point are shown by the position of each dot on the horizontal and vertical axes. Scatter plots are used to see how variables relate to one another.
+
+This library helps to draw scatter plot diagrams with minimal effort.
+
 ## Installation
 
 Run the following command to install this package.

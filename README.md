@@ -15,7 +15,6 @@ npm install react-easy-scatter-plot
 To import the library.
 ```bash
 import Scatterplot from "react-easy-scatter-plot";
-
 ```
 
 Versions used in this library are as follows,
@@ -126,10 +125,21 @@ function Scattermain() {
 export default Scattermain;
 ``` 
 
-The output of v1.0.2 is as follows 
 
-![v1.0.2 output](./public/v1_output.PNG)
+## Want to play with code ?
 
+1. Clone the repository
+2. 'npm start' to start on local environment 
+3. Open your browser and navigate to 'http://localhost:3000/scatter'
 
+## Sample Outputs
+### 1. The output of v1.0.x is as follows 
+
+![v1.0.x output](./public/v1_output.PNG)
+
+### 2. The tooltip output of v1.0.x is as follows 
+#### (This output is according to the custom tooltip element created in the above example, this can be further customized) 
+
+![v1.0.x tooltip output](./public/v1_tooltip.PNG)
 
 Make sure to download the latest release version to experience the advanced features
